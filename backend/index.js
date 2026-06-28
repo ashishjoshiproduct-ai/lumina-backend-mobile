@@ -181,7 +181,7 @@ app.get('/api/logs', (req, res) => {
       requestsLastDay: logsLastDay.length,
       successfulLastDay: successLastDay,
       avgResponseTimeLastHourMs: avgResponseTimeLastHour,
-      avgResponseTimeLast DayMs: avgResponseTimeLastDay,
+      avgResponseTimeLastDayMs: avgResponseTimeLastDay,
     },
     topStoriesLastDay: topStories.map(([story, count]) => ({
       story,
