@@ -13,8 +13,8 @@ import {
 import { BOOK_TITLE, BOOK_AUTHOR, STORIES } from './book';
 import * as Clipboard from 'expo-clipboard';
 
-// Gemini API key (new-style "auth" key, starts with AQ.)
-const GEMINI_API_KEY = 'AQ.Ab8RN6L6R6GjZlnTgzb5zOSZXS5Wk2L17IwCW4RakOTABEQX6g';
+// Backend URL — will be set by environment or deployed URL
+const BACKEND_URL = 'https://lumina-backend-mobile-xxxxx.onrender.com'; // Replace with actual URL after deploying
 
 export default function App() {
   const [currentStoryId, setCurrentStoryId] = useState(1);
